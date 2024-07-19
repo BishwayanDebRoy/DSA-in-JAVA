@@ -1,4 +1,5 @@
 package Basics;
+
 import java.util.*;
 
 //program to calculate cost of item bought and adding gst to the total bill.
@@ -15,3 +16,4 @@ public class Variables {
         System.out.println("The total cost adding gst is  " + new_cost);
     }
 }
+// VARIABLES IS LEARNT
