@@ -14,6 +14,7 @@ public class Variables {
         float new_cost = tot_cost + (0.18f) * tot_cost;
         System.out.println("The total cost without gst is  " + tot_cost);
         System.out.println("The total cost adding gst is  " + new_cost);
+        sc.close();
     }
 }
 // VARIABLES IS LEARNT
