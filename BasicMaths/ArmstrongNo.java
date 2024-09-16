@@ -28,3 +28,4 @@ public class ArmstrongNo {
         sc.close();
     }
 }
+//armstrong no. is learnt
