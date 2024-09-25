@@ -20,8 +20,10 @@ public class DifferenceOfSum {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
+        System.out.println("The difference sum is:");
         System.out.println(diffSum(n, m));
         sc.close();
 
     }
 }
+// comment is added
