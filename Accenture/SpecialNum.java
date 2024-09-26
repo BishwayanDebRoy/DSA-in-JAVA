@@ -41,3 +41,5 @@ public class SpecialNum {
 
     }
 }
+
+// output for special sequence is generated
