@@ -34,11 +34,13 @@ public class PhoneNumberConverter {
         for (int i = 0; i < tokens.length; i++) {
             String token = tokens[i];
             if (token.equals("double")) {
-                String digit = numberMap.get(tokens[++i]);
+                String digit = numberMap.get(tokens[i + 1]);
                 result.append(digit).append(digit);
+                i++;
             } else if (token.equals("triple")) {
-                String digit = numberMap.get(tokens[++i]);
+                String digit = numberMap.get(tokens[i + 1]);
                 result.append(digit).append(digit).append(digit);
+                i++;
             } else {
                 result.append(numberMap.get(token));
             }
