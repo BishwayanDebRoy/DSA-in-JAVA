@@ -68,3 +68,5 @@ class KeyboardRobot {
         System.out.println("Total Distance for '" + word2 + "': " + calculateTotalDistance(word2));
     }
 }
+
+// all edge cases are handled properly.
