@@ -69,4 +69,4 @@ class KeyboardRobot {
     }
 }
 
-// all edge cases are handled properly.
+// all edge cases are handled properly and efficiently.
